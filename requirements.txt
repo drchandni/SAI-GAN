@@ -1,0 +1,7 @@
+tensorflow>=2.10,<2.17
+numpy>=1.23
+pillow>=9.5
+tqdm>=4.66
+opencv-python>=4.6
+scikit-image>=0.22
+pandas>=2.0   # optional, but handy if you later read metrics.csv
