@@ -1,12 +1,6 @@
 # SAI-GAN: Self-Attention Inpainting GAN for Masked Face Reconstruction
-
-This repository accompanies the paper:
-
-> **SAI-GAN: Self-Attention Inpainting GAN for Masked Face Reconstruction**  
-> Chandni Agarwal, *et al.*  
-> *(venue/year — update when finalized)*
-
-**SAI-GAN** extends a Pix2Pix-style cGAN with **self-attention** in a U-Net generator and a **PatchGAN** discriminator to reconstruct masked facial regions while preserving identity. Objective evaluation uses PSNR, SSIM, UIQI, NCORR, and MSE. A classifier-assisted check (e.g., ResNet152 + ELM) is discussed in the paper.
+This repository showcases the **inference** and **evaluation** pipeline for **SAI-GAN**, a Pix2Pix-style conditional GAN that augments a **U-Net generator with self-attention** and uses a **PatchGAN discriminator**. The goal is to reconstruct masked facial regions while preserving local texture and overall facial coherence.  
+This repo focuses on **running reconstruction on sample masked images** and computing image-quality metrics (**PSNR, SSIM, UIQI, NCORR, MSE**). Training code and any classifier-based validation are **out of scope** here and not included.
 
 ## Features
 - Self-Attention U-Net generator + PatchGAN discriminator  
