@@ -104,40 +104,10 @@ eval.py (metrics)
 --pred_suffix  Prediction filename suffix (default: _recon; set "" if none)
 ```
 
-## Results (placeholder)
-
-### TODO: (Replace with your actual results and add visual samples under docs/ or below.)
-
-```
-Model
-PSNR ↑
-SSIM ↑
-UIQI ↑
-NCORR ↑
-MSE ↓
-Pix2Pix cGAN
-xx.xx
-0.xxx
-0.xxx
-0.xxx
-xxxx
-Gated Conv
-xx.xx
-0.xxx
-0.xxx
-0.xxx
-xxxx
-SAI-GAN
-xx.xx
-0.xxx
-0.xxx
-0.xxx
-xxxx
-```
-
 **Datasets & Checkpoints**
 Datasets: Prepare masked/GT splits (e.g., CelebA-HQ variants). Respect original dataset licenses; this repo does not redistribute datasets.
 Checkpoints: Place trained .h5 in checkpoints/. The loader handles TF/Keras versions without Conv2DTranspose(groups) by patching automatically.
+Dataset for Training can be downloaded from the drive link - https://drive.google.com/drive/folders/1EJbxfgTVHDBNvfe7KzESwJoWc8e4J2HJ?usp=sharing 
 
 **License**
 Code: Licensed under Apache-2.0 (see LICENSE).
