@@ -6,7 +6,7 @@ This repo focuses on **running reconstruction on sample masked images** and comp
 <img src="pipeline.png"> 
 <br>
 **Comparison of face reconstruction results: (a) Masked input, (b) Ground truth, (c) PatchMatch, (d) Gated Convolution, (e) EdgeConnect, (f) HVQVAE, (g) Pix2Pix cGAN, and (h) Proposed SAI-GAN.**
-<img src="result.png"> 
+<img src="result.png" width = 60% height = 80% > 
 
 
 ## Features
