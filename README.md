@@ -2,9 +2,8 @@
 This repository showcases the **inference** and **evaluation** pipeline for **SAI-GAN**, a Pix2Pix-style conditional GAN that augments a **U-Net generator with self-attention** and uses a **PatchGAN discriminator**. The goal is to reconstruct masked facial regions while preserving local texture and overall facial coherence.  
 This repo focuses on **running reconstruction on sample masked images** and computing image-quality metrics (**PSNR, SSIM, UIQI, NCORR, MSE**). Training code and any classifier-based validation are **out of scope** here and not included.
 
-| Masked | Reconstructed |
-|---|---|
-| <img src="docs/examples/001_masked.jpg" width="220"> | <img src="docs/examples/001_recon.jpg" width="220"> |
+# Architectural diagram of the proposed SAI-GAN framework, comprising a self-attention-enhanced U-Net generator and a PatchGAN discriminator.
+<img src="pipeline.png" width="220"> | <img src="docs/examples/001_recon.jpg" width="220"> |
 
 
 ## Features
