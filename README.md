@@ -1,7 +1,7 @@
 # SAI-GAN: Self-Attention Inpainting GAN for Masked Face Reconstruction
 This repository showcases the **inference** and **evaluation** pipeline for **SAI-GAN**, a Pix2Pix-style conditional GAN that augments a **U-Net generator with self-attention** and uses a **PatchGAN discriminator**. The goal is to reconstruct masked facial regions while preserving local texture and overall facial coherence.  
 This repo focuses on **running reconstruction on sample masked images** and computing image-quality metrics (**PSNR, SSIM, UIQI, NCORR, MSE**). Training code and any classifier-based validation are **out of scope** here and not included.
-The code and dataset are openly available on GitHub and permanently archived with DOI: 10.5281/zenodo.16943972
+The code and dataset are openly available on GitHub and permanently archived with DOI: 10.5281/zenodo.16943972 
 
 <img src="pipeline.png" width = 60% height = 60% align = "center"> 
 <br>
